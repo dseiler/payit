@@ -1,0 +1,7 @@
+#payit properties
+#Sat Aug 30 00:34:33 CEST 2008
+code.unlock=godisgood
+date.format=dd.MM.yyyy
+look.and.feel=javax.swing.plaf.metal.MetalLookAndFeel
+default.account=443--343-434
+language=deu

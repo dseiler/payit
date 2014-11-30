@@ -1,0 +1,113 @@
+<!--  XML-FSCM-COMMON-2003A  -->
+
+<!--  INTERCHANGE  -->
+<!ELEMENT INTERCHANGE (IC-SENDER, IC-RECEIVER, Test-Flag?, Acknowledgement-Flag?, IC-Ref)>
+<!ELEMENT IC-SENDER (Pid)>
+<!ELEMENT IC-RECEIVER (Pid)>
+<!ELEMENT FUNCTION-FLAGS (Duplicate-Flag?, Cancellation-Flag?, Confirmation-Flag?)>
+
+
+<!--  IDENTIFICATION  -->
+<!ELEMENT MESSAGE-SENDER (PARTY-ID)>
+<!ELEMENT MESSAGE-RECEIVER (PARTY-ID)>
+<!ELEMENT BILLER (Tax-No?, Doc-Reference?, Url?, PARTY-ID, NAME-ADDRESS?, BANK-INFO?)>
+<!ELEMENT DECLARANT (Tax-No?, NAME-ADDRESS)>
+<!ELEMENT SUPPLIER (Tax-No?,(Pid|Ean)?, ALIAS?, NAME-ADDRESS?)>
+<!ELEMENT PAYER (Tax-No?, PARTY-ID?, ALIAS?, NAME-ADDRESS, BANK-INFO?)>
+<!ELEMENT DELIVERY-PARTY ((Pid|Ean)?, ALIAS?, NAME-ADDRESS?)>
+<!ELEMENT PARTY-ID (Pid|Bcn|Cbn|Ean)>
+<!ELEMENT ALIAS (Line-35)>
+<!ELEMENT NAME-ADDRESS (NAME, STREET?, City, State?, Zip, Country?)>
+<!ATTLIST NAME-ADDRESS Format (COM|PRV|1) #IMPLIED>
+<!ELEMENT NAME (Line-35+)>
+<!ELEMENT STREET (Line-35+)>
+<!ELEMENT BANK-INFO (Acct-No, Acct-Name?, BankId?)>
+<!ELEMENT OTHER-PARTY ((Pid|Ean|(Party-Id-Identification, Code-List-Qualifier?, Code-List-Responsible-Agency?))?, ALIAS?, NAME-ADDRESS?)>
+<!ATTLIST OTHER-PARTY Type CDATA #IMPLIED>
+
+<!--  REFERENCES  -->
+<!ELEMENT ORIGINAL-MESSAGE (IC-Ref, MESSAGE-REFERENCE)>
+<!ELEMENT MESSAGE-REFERENCE (REFERENCE-DATE)>
+<!ELEMENT TRX-REFERENCE (REFERENCE-DATE)>
+<!ELEMENT OTHER-REFERENCE (REFERENCE-DATE)>
+<!ATTLIST OTHER-REFERENCE Type CDATA #REQUIRED>
+<!ELEMENT REFERENCE-DATE (Reference-No, Line-No?, Date?)>
+
+<!--  TEXT  -->
+<!ELEMENT GENERAL-INFO (Line-70+)>
+<!ELEMENT ADDITIONAL-TEXT (Line-70+)>
+<!ATTLIST ADDITIONAL-TEXT Type CDATA #IMPLIED>
+
+<!--  TAX  -->
+<!ELEMENT TAX (TAX-BASIS?, Rate, Amount?)>
+<!ELEMENT TAX-BASIS (Amount)>
+<!ELEMENT TAX-INFO (Line-70+)>
+
+<!--  ERRORS  -->
+<!ELEMENT ERROR-INFO (Error-Code, Error-Text?, POSITION?)>
+<!ELEMENT POSITION (Path | COORDINATES)>
+<!ELEMENT COORDINATES (Char-offset | TEXTPOS)>
+<!ELEMENT TEXTPOS (Col, Row)>
+
+
+
+<!--  ELEMENTS  -->
+<!--  ELEMENTS: Flags  -->
+<!ELEMENT Acknowledgement-Flag EMPTY>
+<!ELEMENT Confirmation-Flag EMPTY>
+<!ELEMENT Duplicate-Flag EMPTY>
+<!ELEMENT Cancellation-Flag EMPTY>
+<!ELEMENT Test-Flag EMPTY>
+
+<!--  ELEMENTS: References  -->
+<!ELEMENT Reference-No (#PCDATA)>
+<!ELEMENT Pid (#PCDATA)>
+<!ELEMENT Bcn (#PCDATA)>
+<!ELEMENT Cbn (#PCDATA)>
+<!ELEMENT Ean (#PCDATA)>
+<!ELEMENT IC-Ref (#PCDATA)>
+<!ELEMENT Doc-Reference (#PCDATA)>
+<!ATTLIST Doc-Reference Type (ESR-NEU|ESR-ALT|IPI) 'ESR-NEU'>
+
+<!--  ELEMENTS: IDENTIFICATION  -->
+<!ELEMENT City (#PCDATA)>
+<!ELEMENT State (#PCDATA)>
+<!ELEMENT Zip (#PCDATA)>
+<!ELEMENT Country (#PCDATA)>
+<!ELEMENT Line-Number (#PCDATA)>
+<!ELEMENT Acct-No (#PCDATA)>
+<!ELEMENT Acct-Name (#PCDATA)>
+<!ELEMENT BankId (#PCDATA)>
+<!ATTLIST BankId Type (BCNr-nat|BCNr-int|Blz-de|Blz-at|Bic|Esr|Iban) "Bic"
+                 Country (CH|DE|IT|AT|FR) #IMPLIED>
+<!ELEMENT Party-Id-Identification (#PCDATA)>
+<!ELEMENT Code-List-Qualifier (#PCDATA)>
+<!ELEMENT Code-List-Responsible-Agency (#PCDATA)>
+<!ELEMENT Line-No (#PCDATA)>
+
+<!--  ELEMENTS: ERRORS  -->
+<!ELEMENT Error-Position (#PCDATA)>
+<!ELEMENT Error-Code (#PCDATA)>
+<!ATTLIST Error-Code Generator (Parser|Application) #REQUIRED>
+<!ELEMENT Error-Text (#PCDATA)>
+<!ELEMENT Path (#PCDATA)>
+<!ELEMENT Char-offset (#PCDATA)>
+<!ELEMENT Col (#PCDATA)>
+<!ELEMENT Row (#PCDATA)>
+
+<!--  ELEMENTS: PAYMENT  -->
+<!ELEMENT Tax-No (#PCDATA)>
+<!ELEMENT Amount (#PCDATA)>
+<!ATTLIST Amount Currency CDATA 'CHF'>
+<!ELEMENT Rate (#PCDATA)>
+<!ATTLIST Rate Category (S|E|A) "S">
+
+<!--  ELEMENTS: OTHERS  -->
+<!ELEMENT No-Print EMPTY>
+<!ELEMENT Url (#PCDATA)>
+<!ELEMENT Date (#PCDATA)>
+<!ATTLIST Date Format (CCYYMMDD|CCYYMMDDHHMM|CCYYMMDDHHMMSS|Range) "CCYYMMDD"
+          Zone (GMT|Local) "GMT">
+<!ELEMENT Line-17 (#PCDATA)>
+<!ELEMENT Line-35 (#PCDATA)>
+<!ELEMENT Line-70 (#PCDATA)>

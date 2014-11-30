@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing
+END
+PaymentSlipBlueOrange.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/PaymentSlipBlueOrange.java
+END
+TableMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/TableMap.java
+END
+PaymentTableCellRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/PaymentTableCellRenderer.java
+END
+PaymentSlipRed.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/PaymentSlipRed.java
+END
+CostsComboRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/CostsComboRenderer.java
+END
+PostKtoTextField.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/PostKtoTextField.java
+END
+IbanTextField.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/IbanTextField.java
+END
+PaymentSlip.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/PaymentSlip.java
+END
+DtaFileFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/DtaFileFilter.java
+END
+Fonts.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/Fonts.java
+END
+CodeTablePanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/CodeTablePanel.java
+END
+PaymentSlipBank.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/PaymentSlipBank.java
+END
+UserAccountPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/UserAccountPanel.java
+END
+PaymentListSelectionModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/PaymentListSelectionModel.java
+END
+PaymentTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/PaymentTableModel.java
+END
+CurrencyComboRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/CurrencyComboRenderer.java
+END
+UserAccountTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/UserAccountTableModel.java
+END
+PaymentSlipIpi.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/PaymentSlipIpi.java
+END
+TableSorter.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/TableSorter.java
+END
+UserAccountTablePanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/UserAccountTablePanel.java
+END
+CodeTableModelSwing.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/CodeTableModelSwing.java
+END
+AmountTextField.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/AmountTextField.java
+END
+AllFileFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/AllFileFilter.java
+END
+Charts.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/Charts.java
+END
+AboutDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/AboutDialog.java
+END
+MainFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/MainFrame.java
+END
+LimitedTextArea.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/LimitedTextArea.java
+END
+LimitedTextField.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/LimitedTextField.java
+END
+CodeTableModelInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/view/swing/CodeTableModelInterface.java
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk
+END
+payit.sh
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/payit.sh
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/build.xml
+END
+dbserver.bat
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/dbserver.bat
+END
+payit.bat
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/payit.bat
+END
+runPayITManager.bat
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/runPayITManager.bat
+END
+installer.nsi
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/installer.nsi
+END

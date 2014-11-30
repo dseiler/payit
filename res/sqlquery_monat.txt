@@ -1,0 +1,5 @@
+SELECT month(execdate) as monat,year(execdate) as jahr,sum(amount) as summe,avg(amount) as durchschnitt,
+                 max(amount) as maximum,min(amount) as minimum ,count(*) as anzahl 
+FROM payments 
+WHERE amount < 1000 GROUP BY  month(execdate)
+

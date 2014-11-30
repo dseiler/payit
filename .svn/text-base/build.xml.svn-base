@@ -1,0 +1,147 @@
+<project name="ch.truesolutions.payit" default="build" basedir="..">
+
+	<property name="copyright"				value="Copyright &#169; 2002 Daniel Seiler. All Rights Reserved."/>
+	<property name="build.sysclasspath"			value="ignore"/>
+
+	<!-- Root directories -->
+	<property name="workspace.root.dir"			value="${basedir}"/>
+	<property name="project.root.dir"			value="${basedir}/${ant.project.name}"/>
+
+	<property name="build.root.dir"				value="${project.root.dir}/build"/>
+	<property name="dist.root.dir"				value="${project.root.dir}/releases"/>
+
+	<!-- Workspace properties -->
+	<property file="${project.root.dir}/build.properties"/>
+
+	<!-- User properties -->
+	<property file="${user.home}/ant.properties"/>
+
+	<!-- Project specifications -->
+	<property name="project.name"					value="payit"/>
+	<property name="project.version"				value="1.5"/>
+	<property name="lib.name"						value="${project.name}-${project.version}"/>
+	<!-- Project directories -->
+	<property name="build.project.dir"			value="${build.root.dir}/${lib.name}"/>
+
+	<!-- Build from workspace -->
+	<path id="java.project.local.path">	
+		<fileset dir="${project.root.dir}/lib">
+			<include name="hsqldb.jar"/>
+			<include name="log4j.jar"/>
+			<include name="nanoxml-2.2.1.jar"/>
+			<include name="nanoxml-lite.jar"/>
+			<include name="Chart2D.jar"/>
+			<include name="swt-jface.jar"/>
+		</fileset>
+	</path>
+	
+	<!-- ==================================================== -->
+	<!-- Initialize Ant                                       -->
+	<!-- ==================================================== -->
+	<target name="init" depends="clean">
+		<tstamp/>
+	</target>
+	
+	<!-- ==================================================== -->
+	<!-- Compile the Source                                   -->
+	<!-- ==================================================== -->
+	<target name="compile" depends="init">
+		<!-- make the classes folder -->
+		<mkdir dir="${build.project.dir}/classes"/>
+		<echo message="javac classpath = ${classpath}"/>
+		<!-- compile -->
+		<javac excludes="ch/truesolutions/payit/https/*" srcdir="${project.root.dir}/src" destdir="${build.project.dir}/classes" classpathref="java.project.local.path" debug="on" deprecation="off"/>
+		<!-- Copy properties files -->
+		<!--
+		<copy todir="${build.project.dir}/classes" >
+			<fileset dir="${project.root.dir}/src">
+				<include name="**/*.properties"/>
+			</fileset>
+		</copy> 
+		-->		 
+	</target>
+
+	<!-- ==================================================== -->
+	<!-- Generate the Manifest                                -->
+	<!-- ==================================================== -->
+  	<target depends="compile" name="manifest">
+    	<mkdir dir="${build.project.dir}/META-INF"/>
+    	<!-- generate a manifest file -->
+   		<manifest file="${build.project.dir}/META-INF/MANIFEST.MF">
+      		<attribute name="Manifest-Version" value="1.0"/>
+      		<attribute name="Built-By" value="${user.name}"/> 
+      		<attribute name="Class-Path" value="lib/log4j.jar lib/hsqldb.jar lib/nanoxml-2.2.1.jar lib/nanoxml-lite.jar lib/Chart2D.jar lib/swt-jface.jar images/ res/ conf/"/>
+      		<attribute name="Main-Class" value="ch/truesolutions/payit/model/PayIT"/>
+    	</manifest>
+  	</target>
+	
+	<!-- ==================================================== -->
+	<!-- Generate the Jar                                     -->
+	<!-- ==================================================== -->
+	<target name="jar" depends="manifest">
+		<!-- Build jar from local files -->
+		<jar jarfile="${build.project.dir}/${project.name}.jar" basedir="${build.project.dir}/classes" manifest="${build.project.dir}/META-INF/MANIFEST.MF"/>
+    </target>
+    
+    <!-- ==================================================== -->
+	<!-- Make a build                                         -->
+	<!-- ==================================================== -->
+	<target name="build" depends="jar">
+		<mkdir dir="${build.project.dir}/lib"/>
+		<!-- Copy local files -->
+        <copy todir="${build.project.dir}" >
+			<fileset dir="${project.root.dir}">
+				<include name="docs/**/*"/>
+				<include name="res/**/*"/>
+				<include name="images/**/*"/>
+				<!--<include name="bin/**/*"/>-->
+				<include name="conf/**/*"/>
+				<include name="payit.sh"/>
+				<include name="payit.bat"/>
+			</fileset>
+ 		</copy>
+		<!-- Copy all the needed libraries -->
+ 		<copy todir="${build.project.dir}/lib" >
+			<fileset dir="${project.root.dir}/lib">
+				<include name="hsqldb.jar"/>
+				<include name="log4j.jar"/>
+				<include name="nanoxml-2.2.1.jar"/>
+				<include name="nanoxml-lite.jar"/>
+				<include name="Chart2D.jar"/>
+				<!--<include name="swt-jface.jar"/>-->
+			</fileset>
+		</copy>
+	</target>
+
+	<target depends="build" name="release">
+		<mkdir dir="${dist.root.dir}"/>
+		<zip destfile="${dist.root.dir}/${lib.name}.zip" basedir="${build.root.dir}" includes="${lib.name}/**" excludes="${lib.name}/classes/** *.tar.gz *.zip ${lib.name}/payit.sh" />
+		<tar destfile="${dist.root.dir}/${lib.name}.tar.gz" basedir="${build.root.dir}" includes="${lib.name}/**" excludes="${lib.name}/classes/** *.tar.gz *.zip ${lib.name}/payit.bat" compression="gzip"/>
+	</target>
+	 
+	  <target name="zipsrc">
+	    <!-- Create the time stamp -->
+	    <tstamp/>
+	    <zip destfile="${ant.project.name}_src_${DSTAMP}.zip" basedir="." excludes="bin/** doc/** lib/** jre/** payitdata* *.bak *.log *.zip *.jar"/>
+	  </target>
+
+	<!-- ==================================================== -->
+	<!-- Delete the classses                                  -->
+	<!-- ==================================================== -->
+	<target name="clean">
+		<delete dir="${build.project.dir}"/>
+	</target>
+	
+	<!-- ==================================================== -->
+	<!-- Generate the RMI stubs and skeletions                -->
+	<!-- ==================================================== -->
+	<!--
+		<target name="rmic" depends="compile">
+		<rmic includes="com/swissre/ebpm/impl/Rm*.class" excludes="com/swissre/ebpm/impl/Rm*IF.class, com/swissre/ebpm/impl/Rm*Wrapper.class" base="${build.project.dir}/classes" classpathref="java.project.local.path">	
+		<classpath>
+      		<pathelement path="${project.root.dir}/src"/>
+      	</classpath>
+      	</rmic>
+	</target>
+	-->
+</project>

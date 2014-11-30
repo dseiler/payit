@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/model
+END
+MainModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/model/MainModel.java
+END
+DataAccessObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/model/DataAccessObject.java
+END
+PaymentsModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/model/PaymentsModel.java
+END
+UserAccountsModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/model/UserAccountsModel.java
+END
+CodeTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/model/CodeTableModel.java
+END
+ConfigChangeListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/model/ConfigChangeListener.java
+END
+DataConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/model/DataConverter.java
+END
+Payment.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/model/Payment.java
+END
+CodeTableListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/model/CodeTableListener.java
+END
+PayIT.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/model/PayIT.java
+END
+DAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/model/DAO.java
+END
+Config.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/model/Config.java
+END
+UserAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/model/UserAccount.java
+END
+Utils.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/model/Utils.java
+END

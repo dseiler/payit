@@ -1,0 +1,370 @@
+account.description= Bezeichnung
+
+account.nr= Konto
+
+account.owner= Inhaber
+
+archive_msg.title= Zahlungen archivieren
+
+bankhistorypanel.title= Stammdaten Bankbegünstigte
+
+bkstam.title= Bankenverzeichnis
+
+button.cancel= Abbrechen
+
+button.clear= Maske leeren
+
+button.delete= Löschen
+
+button.edit= Ändern...
+
+button.help= Hilfe
+
+button.new= Neu...
+
+button.save=Speichern
+
+chart.number.tab= Anzahl
+
+chart.number.title= Anzahl Zahlungen pro Monat
+
+chart.sum.tab= Summe
+
+chart.sum.title= Summe der monatlichen Zahlungen
+
+chart.title= PayIT Grafik
+
+checkbox.salary= Salärzahlung
+
+delete_msg.accounttitle= Eigene Konten
+
+delete_msg.title= Zahlungen löschen
+
+esbank.title= Bankzahlung
+
+esblue.title= Blauer Einzahlungsschein
+
+esorange.title= Oranger Einzahlungsschein
+
+esred.title= Roter Einzahlungsschein
+
+filechooser.allfilefilter.text= Alle Dateien (*.*)
+
+filechooser.button.cancel= Abbrechen
+
+filechooser.button.open= Öffnen
+
+filechooser.dtafilefilter.text= DTA Dateien (*.dta)
+
+filechooser.label.filename= Dateiname:
+
+filechooser.label.filetype= Dateityp:
+
+filechooser.label.search= Suchen in:
+
+filechooser.title.dbbackup= Datenbank sichern
+
+filechooser.title.dbrestore= Datenbank wiederherstellen
+
+filechooser.title.dtaexport= DTA Datei erstellen
+
+filechooser.title.dtaimport= DTA Datei importieren
+
+filechooser.tooltip.details= Details
+
+filechooser.tooltip.home= Ursprungsordner
+
+filechooser.tooltip.list= Liste
+
+filechooser.tooltip.newfolder= Neuen Ordner erstellen
+
+filechooser.tooltip.up= Übergeordneter Ordner
+
+info_msg.updatehistoryok= Die Stammdaten wurden aktualisiert.
+
+ipi.title= International Payment Instruction (IPI)
+
+label.accountsection= Kontodaten
+
+label.address= Addresse:
+
+label.adrfor= Adresse des Begünstigten:
+
+label.adrfrombank= Adresse der Bank:
+
+label.amount= Betrag:
+
+label.bankname= Bank:
+
+label.bcnr= Bank Nr./BLZ:
+
+label.clearing= Clearing Nr.:
+
+label.comment= Buchungstext:
+
+label.currency= Währung:
+
+label.description= Bezeichnung:
+
+label.execdate= Ausführungsdatum:
+
+label.iban= IBAN:
+
+label.kto= Kontonummer:
+
+label.ktofrom= Belastungskonto:
+
+label.msgbank= Instruktionen an die Bank:
+
+label.name= Name:
+
+label.reason= Mitteilung an den Begünstigten:
+
+label.swift= S.W.I.F.T:
+
+label.usersection= Kontoinnhaber
+
+label.zipcity= PLZ/Ort:
+
+main.tab1= Pendente Zahlungen
+
+main.tab2= Archivierte Zahlungen
+
+main.title= PayIT Zahlungssoftware
+
+menu.data.bank=Bankbegünstigte...
+
+menu.data.bkstam=Bankenverzeichnis...
+
+menu.data.ktfrom= Eigene Konten (Belastungskonten)...
+
+menu.data.postdirect=Postbegünstigte direkt...
+
+menu.data.postindirect=Postbegünstigte indirekt...
+
+menu.data.updatehistory= Stammdaten aktualisieren
+
+menu.data.zipcity=Orts Verzeichnis...
+
+menu.data= Stammdaten
+
+menu.extra.language.english= Englisch
+
+menu.extra.language.german= Deutsch
+
+menu.extra.language.italian= Italienisch
+
+menu.extra.language= Sprache
+
+menu.extra.language.french= Französisch
+
+menu.extra.lookandfeel.java= Java
+
+menu.extra.lookandfeel.macintosh= Macintosh
+
+menu.extra.lookandfeel.motif= Motif/Unix
+
+menu.extra= Extras
+
+menu.extra.lookandfeel= Aussehen
+
+menu.extra.lookandfeel.windows= Windows
+
+menu.file.backup= Datenbank sichern...
+
+menu.file.exit= Beenden
+
+menu.file.restore= Datenbank wiederherstellen...
+
+menu.file= Datei
+
+menu.help.about= Info über PayIT...
+
+menu.help= ?
+
+menu.help.register= PayIT registrieren...
+
+menu.pay.archive= Zahlung(en) archivieren...
+
+menu.pay.chart= Grafik anzeigen...
+
+menu.pay.delete= Zahlung(en) löschen...
+
+menu.pay.dta= DTA-Zahlungsfile erstellen (ohne Übermittlung)...
+
+menu.payments.dtaimport= DTA-Zahlungsfile importieren...
+
+menu.payments.dtaview= DTA-Zahlungsfile anschauen...
+
+menu.payments.reactivate= Zahlung(en) reaktivieren...
+
+menu.payments.reuse= Zahlung wiederverwenden...
+
+menu.payments= Zahlungen
+
+menu.view= Ansicht
+
+menu.view.archived= Archivierte Zahlungen
+
+menu.view.pendent= Pendente Zahlungen
+
+month.apr= April
+
+month.aug= Aug
+
+month.dec= Dez
+
+month.feb= Feb
+
+month.jan= Jan
+
+month.jul= Juli
+
+month.jun= Juni
+
+month.mar= März
+
+month.may= Mai
+
+month.nov= Nov
+
+month.oct= Okt
+
+month.sep= Sept
+
+msg.cancel= Abbrechen
+
+msg.copy= Kopieren
+
+msg.move= Verschieben
+
+msg.no= Nein
+
+msg.payittitle= PayIT Zahlungssoftware
+
+msg.yes= Ja
+
+postforhistorypanel.title= Stammdaten Postbegünstigte indirekt
+
+posttohistorypanel.title= Stammdaten Postbegünstigte direkt
+
+question_msg.archive= Alle markierten Zahlungen archivieren?
+
+question_msg.archiveall= Zahlungen archivieren?
+
+question_msg.delete= Alle markierten Zahlungen löschen?
+
+question_msg.deleteaccount= Wollen sie das selektierte Benutzerkonto wirklich löschen?
+
+question_msg.dtacreated= DTA File erfolgreich erstellt. Wollen sie das File anschauen?
+
+question_msg.reactivate= Alle markierten Zahlungen reaktivieren?
+
+reactivate_msg.title= Zahlungen reaktivieren
+
+registration.text = Um die Vollversion von PayIT zu erhalten \nist eine kleine Gebühr von 20 CHF zu bezahlen. \nIn der Vollversion werden die Zahlungsdaten \nauf der Harddisk gespeichert.
+
+registration.comment = PayIT Vollversion
+
+registration.reason = PayIT Vollversion:\nIhre Email Adresse:
+
+statusbar.number= Zahlungen
+
+statusbar.selected= Markiert
+
+statusbar.total= Summe
+
+table.adress=Adresse
+
+table.address1=Adresse 1
+
+table.address2=Adresse 2
+
+table.address3=Adresse 3
+
+table.amount= Betrag
+
+table.bkname=Bank
+
+table.city=Ort
+
+table.clearing=Clearing
+
+table.comment= Buchungstext
+
+table.execdate= Termin
+
+table.kto= Bankkonto
+
+table.ktofrom= Belastungskonto
+
+table.ktoto= Begünstigtes Konto
+
+table.postaccount=Kt.Post
+
+table.to= Begünstigter
+
+table.type= Art
+
+table.zip=Plz
+
+toolbar.esbank= Bankzahlung
+
+toolbar.esblue= Blauer Einzahlungsschein
+
+toolbar.esorange= Oranger Einzahlungsschein
+
+toolbar.esred= Roter Einzahlungsschein
+
+toolbar.esrediban= Roter Einzahlungsschein mit IBAN
+
+useraccountpanel.title= Eigenes Konto
+
+useraccounttablepanel.title= Eigene Konten
+
+validate_msg.accountexists= Es existiert bereits ein Benutzerkonto mit dieser Nummer!
+
+validate_msg.accountmissing= Bitte ein gültiges Benutzerkonto eingeben.
+
+validate_msg.amount= Bitte geben sie einen Betrag ein.
+
+validate_msg.amountmissing= Der Betrag fehlt oder ist nicht gültig.
+
+validate_msg.bancmissing= Name der Bank fehlt.
+
+validate_msg.bankktomissing= Bitte geben sie eine Kontonummer ein.
+
+validate_msg.clearingmissing= Bitte geben sie eine Clearingnummer ein.
+
+validate_msg.ctrlnrpostkto= Prüfziffer der Postkontonummer ist falsch.
+
+validate_msg.emptydate= Bitte geben sie ein gültiges Ausführungsdatum ein.
+
+validate_msg.formissing= Bitte geben sie keines oder alle Begünstigtenfelder ein.
+
+validate_msg.ibanwrong= Die IBAN fehlt oder ist nicht korrekt.
+
+validate_msg.namemissing= Name und Ort des Begünstigten fehlt.
+
+validate_msg.postktoformat= Format der Postkontonummer ungültig.
+
+validate_msg.postktolength= Länge der Postkontonummer ungültig.
+
+validate_msg.postktomissing= Bitte geben sie eine gültige Postkontonummer ein.
+
+validate_msg.postktoowner= Die Adresse des Postkontoinhabers fehlt oder ist unvollständig.
+
+validate_msg.reasonnotvalid= Der Verwendungszweck ist nicht gültig.
+
+validate_msg.refnrinvalid= Prüfziffer der Referenznummer ist falsch.
+
+validate_msg.refnrmissing= Bitte geben sie eine gültige Referenznummer ein.
+
+validate_msg.accountinuse= Löschen oder Ändern des Kontos ist nicht möglich. Konto wird von archivierten oder pendenten Zahlungen verwendet.
+
+warn_msg.dtafailed= Erstellen der DTA-Datei ist misslungen!
+
+warn_msg.updatehistoryok= Es ist ein Fehler beim aktualisieren der Stammdaten aufgetreten. Überprüfen sie das Resultat!
+
+zipcity.title= Ortsverzeichnis
+

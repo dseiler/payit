@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE EDIActivationMessage SYSTEM "CUX_V1.0.dtd">
+<EDIActivationMessage xmlns="urn:CUXInterfaces:DataTypes">
+	<SignOnRq>
+		<DtClient>2004-08-10T10:07:24.587Z</DtClient>
+		<ClientPID>41010247375633592</ClientPID>
+		<Language>GER</Language>
+	</SignOnRq>
+	<TrnRq>
+		<TrnUID>ID0000063</TrnUID>
+	</TrnRq>
+	<EDIActivationRequest>
+		<CustomerPID>41010247375633592</CustomerPID>
+		<CommunicationEDI>
+			<InvoiceFormat>EIXML_LIGHT</InvoiceFormat>
+			<ID IDType="USERNAME">PI_41010247375633592</ID>
+			<Password>TestPayIt_11</Password>
+		</CommunicationEDI>
+		<CommunicationPDF>
+			<ID IDType="USERNAME">PI_41010247375633592_MM</ID>
+			<Password>TestPayIt_11</Password>
+		</CommunicationPDF>
+	</EDIActivationRequest>
+</EDIActivationMessage>

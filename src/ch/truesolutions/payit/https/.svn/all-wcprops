@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/https
+END
+JessieSocketFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/https/JessieSocketFactory.java
+END
+BasicHttpsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/https/BasicHttpsTest.java
+END
+HttpsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/https/HttpsTest.java
+END
+PayNetConsoleClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/https/PayNetConsoleClient.java
+END
+EasyX509TrustManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/https/EasyX509TrustManager.java
+END
+EasySSLProtocolSocketFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/src/ch/truesolutions/payit/https/EasySSLProtocolSocketFactory.java
+END

@@ -1,0 +1,1 @@
+SELECT month(execdate),year(execdate),sum(amount),count(*) FROM payments where amount < 10000 GROUP BY month(execdate)

@@ -1,0 +1,57 @@
+package ch.truesolutions.payit.view.swing;
+
+import java.awt.Color;
+import java.awt.Component;
+
+import javax.swing.JComboBox;
+import javax.swing.JLabel;
+import javax.swing.JList;
+import javax.swing.ListCellRenderer;
+
+/**
+ * @author dseiler
+ *
+ * To change this generated comment edit the template variable "typecomment":
+ * Window>Preferences>Java>Templates.
+ * To enable and disable the creation of type comments go to
+ * Window>Preferences>Java>Code Generation.
+ */
+public class CostsComboRenderer extends JLabel implements ListCellRenderer {
+
+	private JComboBox comboBox;
+	
+	public CostsComboRenderer(JComboBox comboBox) {
+		this.comboBox = comboBox;
+		this.comboBox.setBackground(Color.white);
+		setOpaque(true);
+		setHorizontalAlignment(LEFT);
+		setVerticalAlignment(CENTER);
+	}
+
+	/**
+	 * @see javax.swing.ListCellRenderer#getListCellRendererComponent(JList, Object, int, boolean, boolean)
+	 */
+	public Component getListCellRendererComponent(
+		JList list,
+		Object value,
+		int index,
+		boolean isSelected,
+		boolean cellHasFocus) {
+		
+		String symbol = (String) value;
+		String toolTip = "";
+		setBackground(Color.white);
+		setText(symbol);
+		if("SHA".equals(symbol)){
+			toolTip = "Kostenteilung";
+		}else if("BEN".equals(symbol)){
+			toolTip = "Kosten zu Lasten des Begünstigten";
+		}else if("OUR".equals(symbol)){
+			toolTip = "Kosten zu Lasten des Auftraggebers";
+		}
+		comboBox.setToolTipText(
+			toolTip);
+		return this;
+	}
+
+}

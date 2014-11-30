@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="ASCII"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" id="streuliDanielchtruesolutionspayit0" metadata="nsuml-1.4" initialized="true" showWireOptions="1">
+  <children xsi:type="editmodel:ClassEditModel" location="339,349" size="229,697" targetConnections="//@children.4/@sourceConnections.0" id="streuliDanielchtruesolutionspayit11" runTimeClassModel="streuliDanielchtruesolutionspayit102;streuliDanielchtruesolutionspayit100;streuliDanielchtruesolutionspayit29;streuliDanielchtruesolutionspayit26;streuliDanielchtruesolutionspayit25;streuliDanielchtruesolutionspayit89;streuliDanielchtruesolutionspayit56;streuliDanielchtruesolutionspayit22;streuliDanielchtruesolutionspayit86;streuliDanielchtruesolutionspayit20;streuliDanielchtruesolutionspayit52;streuliDanielchtruesolutionspayit83;streuliDanielchtruesolutionspayit50;streuliDanielchtruesolutionspayit80;streuliDanielchtruesolutionspayit18;streuliDanielchtruesolutionspayit48;streuliDanielchtruesolutionspayit16;streuliDanielchtruesolutionspayit46;streuliDanielchtruesolutionspayit77;streuliDanielchtruesolutionspayit44;streuliDanielchtruesolutionspayit42;streuliDanielchtruesolutionspayit73;streuliDanielchtruesolutionspayit71;streuliDanielchtruesolutionspayit118;streuliDanielchtruesolutionspayit116;streuliDanielchtruesolutionspayit112;streuliDanielchtruesolutionspayit38;streuliDanielchtruesolutionspayit37;streuliDanielchtruesolutionspayit68;streuliDanielchtruesolutionspayit36;streuliDanielchtruesolutionspayit35;streuliDanielchtruesolutionspayit66;streuliDanielchtruesolutionspayit97;streuliDanielchtruesolutionspayit33;streuliDanielchtruesolutionspayit32;streuliDanielchtruesolutionspayit63;streuliDanielchtruesolutionspayit95;streuliDanielchtruesolutionspayit93;streuliDanielchtruesolutionspayit61;streuliDanielchtruesolutionspayit91;streuliDanielchtruesolutionspayit107">
+    <children xsi:type="editmodel:CompartmentEditModel" size="205,252">
+      <children xsi:type="editmodel:AttributeEditModel" id="streuliDanielchtruesolutionspayit46"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="streuliDanielchtruesolutionspayit37"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="streuliDanielchtruesolutionspayit26"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="streuliDanielchtruesolutionspayit32"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="streuliDanielchtruesolutionspayit25"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="streuliDanielchtruesolutionspayit36"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="streuliDanielchtruesolutionspayit35"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="streuliDanielchtruesolutionspayit29"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="streuliDanielchtruesolutionspayit38"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="streuliDanielchtruesolutionspayit22"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="streuliDanielchtruesolutionspayit44"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="streuliDanielchtruesolutionspayit33"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="streuliDanielchtruesolutionspayit42"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="streuliDanielchtruesolutionspayit48"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="161,396">
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit52"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit56"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit100"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit107"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit95"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit93"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit118"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit91"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit89"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit86"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit77"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit80"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit73"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit83"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit116"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit63"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit112"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit102"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit97"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit71"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit66"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit68"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="streuliDanielchtruesolutionspayit15" connectionRouterKind="Manual" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="229,79"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" location="461,132" size="243,81" targetConnections="//@children.0/@sourceConnections.0" id="streuliDanielchtruesolutionspayit9" runTimeClassModel="streuliDanielchtruesolutionspayit181">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="118,18">
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit181"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" location="367,21" size="287,117" targetConnections="//@children.3/@sourceConnections.0" id="streuliDanielchtruesolutionspayit169" runTimeClassModel="streuliDanielchtruesolutionspayit190;streuliDanielchtruesolutionspayit187;streuliDanielchtruesolutionspayit194">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="105,54">
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit187"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit194"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit190"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="29,499" size="274,247" id="streuliDanielchtruesolutionspayit573" runTimeClassModel="streuliDanielchtruesolutionspayit596;streuliDanielchtruesolutionspayit593;streuliDanielchtruesolutionspayit609;streuliDanielchtruesolutionspayit611;streuliDanielchtruesolutionspayit591;streuliDanielchtruesolutionspayit587;streuliDanielchtruesolutionspayit606;streuliDanielchtruesolutionspayit585;streuliDanielchtruesolutionspayit584;streuliDanielchtruesolutionspayit583;streuliDanielchtruesolutionspayit602;streuliDanielchtruesolutionspayit579;streuliDanielchtruesolutionspayit581;streuliDanielchtruesolutionspayit600;streuliDanielchtruesolutionspayit577;streuliDanielchtruesolutionspayit598">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="143,198">
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit585"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit609"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit600"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit606"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit598"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit593"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit602"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit591"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit596"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit587"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit611"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="streuliDanielchtruesolutionspayit575" connectionRouterKind="Manual" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="274,11"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="streuliDanielchtruesolutionspayit574" connectionRouterKind="Manual" source="//@children.3" target="//@children.5" targetEnd="//@children.3/@sourceConnections.1/@children.1" sourceEnd="//@children.3/@sourceConnections.1/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="2,0"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="646,429" size="272,121" id="streuliDanielchtruesolutionspayit778" runTimeClassModel="streuliDanielchtruesolutionspayit786;streuliDanielchtruesolutionspayit783;streuliDanielchtruesolutionspayit794;streuliDanielchtruesolutionspayit780;streuliDanielchtruesolutionspayit790">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="141,72">
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit790"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit783"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit780"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit786"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="streuliDanielchtruesolutionspayit779" connectionRouterKind="Manual" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,13"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="16,21" size="297,391" targetConnections="//@children.3/@sourceConnections.1" id="streuliDanielchtruesolutionspayit202" runTimeClassModel="streuliDanielchtruesolutionspayit681;streuliDanielchtruesolutionspayit749;streuliDanielchtruesolutionspayit718;streuliDanielchtruesolutionspayit747;streuliDanielchtruesolutionspayit716;streuliDanielchtruesolutionspayit714;streuliDanielchtruesolutionspayit745;streuliDanielchtruesolutionspayit711;streuliDanielchtruesolutionspayit741;streuliDanielchtruesolutionspayit697;streuliDanielchtruesolutionspayit694;streuliDanielchtruesolutionspayit691;streuliDanielchtruesolutionspayit726;streuliDanielchtruesolutionspayit722;streuliDanielchtruesolutionspayit706;streuliDanielchtruesolutionspayit737;streuliDanielchtruesolutionspayit734;streuliDanielchtruesolutionspayit701;streuliDanielchtruesolutionspayit688;streuliDanielchtruesolutionspayit730;streuliDanielchtruesolutionspayit686;streuliDanielchtruesolutionspayit685;streuliDanielchtruesolutionspayit683">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="161,342">
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit686"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit706"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit691"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit730"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit734"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit714"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit726"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit718"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit722"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit716"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit694"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit745"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit688"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit737"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit747"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit741"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit697"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit711"/>
+      <children xsi:type="editmodel:MethodEditModel" id="streuliDanielchtruesolutionspayit701"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showInterfaceStereotype="true" showClassStereotype="true" showPackageStereotype="true"/>
+</editmodel:ClassDiagramEditModel>

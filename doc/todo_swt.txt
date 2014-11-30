@@ -1,0 +1,7 @@
+TODO's für Payit SWT
+====================
+
+1 DTA Datei erstellen nimmt nur die erste Zahlung !!
+1 Menüpunkt Zahlungwiederverwenden implementieren
+1 DTA Zahlungsfile anschauen implementieren
+1 Total #Zahlungen und Total betrag stimmt nicht wenn neue Zahlungen hinzugefügt werden

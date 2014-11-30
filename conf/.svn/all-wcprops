@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/conf
+END
+logger.properties
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/conf/logger.properties
+END
+messages_fr.properties
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/conf/messages_fr.properties
+END
+messages.properties
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/conf/messages.properties
+END
+messages_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/conf/messages_en.properties
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/conf/log4j.properties
+END
+EDIActivation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/conf/EDIActivation.xml
+END
+EDIDeactivation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/conf/EDIDeactivation.xml
+END
+messages_de.properties
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/conf/messages_de.properties
+END
+payit.properties
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/truesolutions/!svn/ver/33/ch.truesolutions.payit/trunk/conf/payit.properties
+END

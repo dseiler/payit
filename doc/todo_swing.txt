@@ -1,0 +1,32 @@
+/* TODO Liste */
+
+1: nächste schritte
+2: nötig für beta release
+3: für ersten final release
+
+1 Zahlungsprotokoll speichern und anzeigen
+1 build scripts
+1 MainFrame checken
+1 dta import
+1 history verwaltung
+1 Bei bankhistory query join mit bkstam tabelle für bankadresse
+1 Bei Bankzahlung bei clearing query auch bankadresse ausfüllen
+1 Reihenfolge des Focus bei allen Zahlungen ueberpruefen
+1 Design der Bankzahlung verschönern
+1 Kalender mehrsprachig
+1 Clearfunktion implementieren
+1 Ev. Nord und Süd Frame bei Es mit Rahmen versehen
+1 bevor dta file erstellt wird datum der zahlungen prüfen
+1 nach dta import und export meldung ob erfolgreich oder nicht
+1 Bei useraccounts panel validierung einbauen
+1 Falls es keine pendente Zahlung hat sollte der export to dta punkt diasabled sein
+1 ev. *.zip Endung anhängen beim db backup
+
+2 ueberall loggmeldungen einbauen
+2 kommentare in code
+
+3 filterfunktionen
+3 export nach excell
+3 Italienische Meldungen
+3 Berichte mit Charts
+3 Auslandzahlungen

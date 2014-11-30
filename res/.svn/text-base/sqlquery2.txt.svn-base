@@ -1,0 +1,1 @@
+SELECT avg(amount) FROM (SELECT month(execdate),sum(amount) as amount,count(*) FROM payments where amount < 10000 GROUP BY month(execdate))

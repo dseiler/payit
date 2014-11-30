@@ -1,0 +1,19 @@
+Roter ES
+========
+
+Name und Strasse des Auftraggebers: 	72 Zeichen (3*24)
+Plz					5  Zeichen (ubs 6 Zeichen)
+Ort					18 Zeichen (max 48)
+
+Name und Strasse Einzahlung für - Post	72 Zeichen (wird nur verwendet wenn Zugunsten von leer ist - Bank)
+Plz					5  Zeichen (ubs 6 Zeichen)
+Ort					18 Zeichen
+
+TOTAL 96 Zeichen 4 * 24 !! (können beliebig gruppiert werden)
+
+Name und Strasse Zugunsten von - Bank   48 Zeichen (2*24) UBS hat es so gewählt es können aber auch 72 sein
+Plz					5  Zeichen
+Ort					18 Zeichen
+
+Zahlungsgrund				max 112 Zeichen (4*28)
+
